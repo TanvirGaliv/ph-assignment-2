@@ -1,0 +1,117 @@
+
+@media (max-width:576px) {
+
+    .banner-container{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner-left{
+        width: 450px;
+    }
+
+    .bar-icon{
+        display: block;
+        font-size: 28px;
+        color: white;
+    }
+
+    .nav-elements{
+        display: none;
+    }
+
+    .btn-primary{
+        padding: 10px 30px;
+        font-size: 1rem;
+    }
+
+    .btns{
+        gap: 5px;
+    }
+/* ========== change your habit container ======== */
+    .change-your-habit-description {
+        width: 100%;
+        align-self: center;
+        margin-bottom: 30px;
+    }
+    .change-your-habit-card-container {
+        flex-direction: column;
+    }
+    .card-circle-description {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    /*============== run-extra-section-container ==========*/
+
+    .run-extra-section-container {
+        flex-direction: column;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .run-extra-section-title {
+        width: 100%;
+    }
+    .run-extra-section-description {
+        width: 95%;
+    }
+
+    .run-extra-section-container-left {
+        width: 100%;
+    }
+
+    .run-extra-btn {
+        align-self: normal;
+        margin-bottom: 10px;
+    }
+
+    .run-extra-section-container-right {
+        width: 100%;
+    }
+
+    /*========= BMI Calculator Section =========*/
+    .bmi-calculator-container {
+        width: 100%;
+    }
+
+    .bmi-container-title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .bmi-container-description {
+        width: 100%;
+    }
+    /*========== BMI Chart related styles ============*/
+
+    .bmi-chart-section-element-container {
+        flex-direction: column;
+    }
+
+    .bmi-chart-left {
+        width: 100%;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .bmi-chart-right {
+        width: 100%;
+        padding: 0px;
+    }
+
+    /*=============== Meet our team section related styles ==============*/
+
+    .meet-our-team-description {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .meet-our-team-trainer {
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(6, 330px);
+    }
+
+}

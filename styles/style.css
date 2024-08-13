@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+/*============= Share Styles ===========*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height:100%;
+    font-family: "Inter", sans-serif;
+}
+
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+.text-color{
+    font-size: 14px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.50);
+}
+
+.display-flex{
+    display: flex;
+}
+
+.primary-color{
+    color:rgb(230, 83, 60)
+}
+
+.btn-primary{
+    color: white;
+    background-color: rgb(230, 83, 60);
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid rgb(230, 83, 60);
+    cursor: pointer;
+
+}
+
+/*======= header related styles starts =========*/
+
+header{
+    background: linear-gradient(
+      180deg,
+      rgb(17, 17, 17),
+      rgba(119, 119, 119, 0) 100%
+    ),
+    linear-gradient(360deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+.navbar{
+   justify-content: space-between; 
+   padding-top: 50px;
+   margin-bottom: 50px;
+}
+
+.logo{
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+    cursor: pointer;
+}
+.nav-elements li{
+    list-style: none;
+}
+.nav-elements li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+
+.nav-elements{
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    width: 500px;
+}
+
+.color-btn{
+  background-color: rgb(230, 83, 60);
+  padding: 12px 20px;
+  border-radius: 30px;
+  color: white;
+}
+
+.bar-icon{
+    display: none;
+}
+
+.navbar-container,
+.banner-container
+{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.banner-container{
+    justify-content: space-between;
+}
+/*============= navbar styles starts ==================*/
+
+.shape{
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+}
+
+.banner-left {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .banner-right {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .banner-left h1 {
+    font-size: 4.88rem;
+    font-weight: 900;
+    line-height: 80px;
+    color: white;
+}
+
+.btns{
+    gap: 20px;
+}
+
+.banner-btn-2{
+    background-color: transparent;
+    border:1px solid white;
+}
+
+/*============ box position styles ============ */
+.box-1{
+    padding: 15px 20px;
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    right: 30px;
+    top: 150px;
+}
+
+.box-1-number {
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+}
+
+.box-2 {
+    align-items: center;
+    gap: 5px;
+    width: 206px;
+    height: 90px;
+    padding: 10px 15px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    bottom: 50px;
+    left: 0px;
+  }
+
+  .circle {
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50% 50%;
+    padding: 10px;
+}
+
+.box-2-number{
+    display: flex;
+    gap: 4px;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    color:rgb(255, 255, 255);
+}
+
+.box-2-text{
+    color:rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding: 0px;
+}
+
+/*======================= Main related styles starts here ======================== */
+main{
+    background-color: black;
+}
+
+.change-yuor-habit-container {
+    max-width: 80%;
+    margin: 0  auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+.change-your-habit-title {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+
+.change-your-habit-description {
+    text-align: center;
+    align-self: center;
+    width: 32%;
+    margin-bottom: 30px;
+}
+
+.change-your-habit-card-container {
+    display: flex;
+    gap: 30px;
+}
+
+.change-your-habit-card-circle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-circle-img img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.card-circle-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+/*================ run extra section related styles ==============*/
+.run-extra-section-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    background: rgba(255, 255, 255,0.144);
+    backdrop-filter: blur(10px);
+    border-radius: 18px;
+    padding: 50px;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.run-extra-section-title {
+    width: 40%;
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+.run-extra-section-container-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+}
+
+.run-extra-section-description {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.run-extra-btn {
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+.run-extra-section-container-right{
+    width: 30%;
+}
+
+.run-extra-section-container-right img {
+    border-radius: 18px;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*============== bmi-calculator-container related styles =============*/
+
+.bmi-calculator-container {
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.bmi-container-title {
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+
+.bmi-container-description {
+    width: 50%;
+}
+
+/*===================== BMI Chart related styles ==============*/
+
+.bmi-chart-section-container {
+    background-color: rgba(255, 255, 255, 0.144);
+    margin-bottom: 60px;
+}
+
+.bmi-chart-section-element-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.bmi-chart-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.bmi-chart-title,
+.bmi-form-title
+{
+    font-size: 28px;
+    font-weight: 900;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 310px;
+    height: 216px;
+}
+
+th,
+td {
+    border: 1px solid rgba(128, 128, 128, 0.368);
+    padding: 10px;
+    font-size: 14px;
+}
+
+th {
+    color: white;
+    text-align: left;
+}
+
+td {
+    color:rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+
+.bmi-chart-right {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 100px;
+}
+
+.bmi-form-description {
+    width: 80%;
+}
+
+form input {
+    width: 49%;
+    outline: none;
+    border: none;
+    padding: 12px 25px;
+    background: rgba(255, 255, 255, 0.144);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.select-area-section {
+    display: inline-block;
+    position: relative;
+    width: 49%;
+}
+
+.select-area-section-2 {
+    position: relative;
+    width: 99%;
+}
+
+.select-area-section select {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255,0.144);
+    color: rgba(255, 255, 255, 0.50);
+    border-radius: 8px;
+    padding: 12px 25px;
+    appearance: none;
+    margin-bottom: 10px;
+
+}
+
+
+.select-area-section-2 select {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255,0.144);
+    color: rgba(255, 255, 255, 0.50);
+    border-radius: 8px;
+    padding: 12px 25px;
+    appearance: none;
+}
+
+.select-area-section::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.5);
+    transform: rotate(130deg);
+    top: 50%;
+    right: 20px;
+    margin-top: -10px;
+    background: rgba(255, 255, 255,0.144);
+  }
+
+  .select-area-section-2::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    border-right: 2px solid rgba(255, 255, 255, 0.5);
+    transform: rotate(130deg);
+    top: 50%;
+    right: 20px;
+    margin-top: -8px;
+  }
+
+  .bmi-btn {
+    align-self: flex-start;
+  }
+  
+
+  /*=============== Meet our team section related styles ==============*/
+
+  .meet-our-team-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 60px;
+  }
+
+  .meet-our-team-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+  }
+
+  .meet-our-team-description {
+    text-align: center;
+    align-self: center;
+    width: 40%;
+    margin-bottom: 20px;
+  }
+
+  .meet-our-team-trainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 400px);
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.144);
+    padding: 20px;
+    border-radius: 18px;
+  }
+
+  .trainer {
+    position: relative;
+    border-radius: 18px;
+    overflow: hidden;
+  }
+
+  .trainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+  }
+
+  .trainer-description {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+  }
+
+  .trainer-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+  }
